@@ -30,7 +30,7 @@ This is a face recognition-based attendance system. The system recognizes users 
 - Mark attendance for recognized faces.
 - Show attendance records.
 
-### **Step 5: Push `README.md` to GitHub**
+### **Push `README.md` to GitHub**
 1. Create the `README.md` file in the root directory of your project.
 2. Add and commit the `README.md` file:
 
