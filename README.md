@@ -18,3 +18,14 @@ This is a face recognition-based attendance system. The system recognizes users 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Face-Recognition-Attendance-System.git
+
+## Usage
+1. Run the attendance_gui.py file:
+   ```bash
+   python attendance_gui.py
+
+2. Follow the GUI instructions to:
+- Capture face data for new users.
+- Train the face recognition model.
+- Mark attendance for recognized faces.
+- Show attendance records.
