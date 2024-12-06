@@ -20,9 +20,6 @@ def capture_faces(user_id, user_name):
             cv2.imwrite(file_path, face)
             count += 1
             cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
-
-             # Take a screenshot of the frame and save it
-            cv2.imwrite(f"{screenshot_path}screenshot_{user_id}_{count}.jpg", frame)
         cv2.imshow("Capturing Faces", frame)
         if cv2.waitKey(1) == ord("q") or count >= 50:
             break
